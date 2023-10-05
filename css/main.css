@@ -1,0 +1,18 @@
+body {
+    background-color: lavender;
+}
+nav a {
+    font-size: Large;
+    font-weight: bold;
+    display: flex;
+    flex-direction:inherit;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+a:hover {
+    color: rgb(217, 9, 245);
+    text-decoration:overline
+}
