@@ -2,7 +2,9 @@ body {
     background-color: lavender;
 }
 nav a {
-    font-size: Large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:line-through;
+    font-size: 1em;
     font-weight: bold;
     display: flex;
     flex-direction:inherit;
@@ -15,4 +17,17 @@ nav a {
 a:hover {
     color: rgb(217, 9, 245);
     text-decoration:overline
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:line-through;
+    text-decoration-color: rgb(6, 199, 199);
+    display: flex;
+    justify-content: center;
+}
+div nav a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: end;
+ 
 }
