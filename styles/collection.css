@@ -1,0 +1,32 @@
+body {
+    background-color:antiquewhite !important;
+     
+}
+nav a {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+a:hover {
+    color: rgb(217, 9, 245);
+    text-decoration:overline
+}
+.container-fluid{
+    background-color: antiquewhite;
+    background-origin: padding-box;
+}
+  #frtr{
+    text-decoration: line-through;
+    text-decoration-color: aqua;
+}
+  #frtr:hover {
+    color: rgb(217, 9, 245);
+    text-decoration:overline;
+}

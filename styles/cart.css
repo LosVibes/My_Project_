@@ -3,16 +3,17 @@ body {
 }
 nav a {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:line-through;
+    font-size: 1em;
     font-weight: bold;
     display: flex;
     flex-direction:inherit;
     justify-content: space-around;
     flex-wrap: wrap;
     text-decoration: none;
-    color: antiquewhite;
+    color: black;
     padding: 1em;
 }
-
 a:hover {
     color: rgb(217, 9, 245);
     text-decoration:overline
@@ -27,20 +28,19 @@ h1{
 div nav a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
-    justify-content: space-around;
-    flex-flow: wrap;
-
+    justify-content: end;
+ 
+}
+button{
+    position: 0,0,50,0 !important;
 }
 .modal-content{
     background-color: lavender;
-    
 }
 .btn-primary{
-    margin-left:inherit;
     background-color: rgb(0, 0, 0);
     color: antiquewhite;
     border-color: black;
-    
 }
 .modal-header{
     background-color: rgb(80, 70, 70);
@@ -55,35 +55,15 @@ form{
     background-color:black ;
     border: 5px solid;
 }
-img{
-    display: flex;
-    justify-content:flex-end;
-    width: 25vw;
-    background-color: #ffffff;
-    padding: 1px;
-    border: 1em solid rgba(255, 255, 255, 0.89);
-    box-shadow: .1em .1em .2em .2em rgba(0,0,0,0.1);
-    margin: 0.5em;
-
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  .container-fluid{
+.container-fluid{
     background-color: antiquewhite;
     background-origin: padding-box;
-  }
+}
   #frtr{
     text-decoration: line-through;
     text-decoration-color: aqua;
-  }
+}
   #frtr:hover {
     color: rgb(217, 9, 245);
     text-decoration:overline;
-}
-.btn-primary{
-    margin-top: 9px;
 }
