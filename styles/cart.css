@@ -29,6 +29,7 @@ div nav a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: end;
+    
  
 }
 button{
@@ -50,9 +51,9 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
+    color: antiquewhite;
     margin: 150px;
-    background-color:black ;
+    background-color:rgb(80, 70, 70) ;
     border: 5px solid;
 }
 .container-fluid{
@@ -66,4 +67,23 @@ form{
   #frtr:hover {
     color: rgb(217, 9, 245);
     text-decoration:overline;
+}
+table{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+   margin: auto;
+   background-color: rgba(0, 255, 255, 0.267);
+    border: 2px solid rgba(0, 255, 255, 0.123);
+    box-shadow: .2em .2em .3em .3em rgba(0,0,0,0.1);
+}
+.center{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: rgba(0, 255, 255, 0.267);
+    border: 2px solid rgba(0, 255, 255, 0.267);
+    box-shadow: .2em .2em .3em .3em rgba(0,0,0,0.1);
 }

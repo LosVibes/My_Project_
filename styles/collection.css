@@ -30,3 +30,24 @@ a:hover {
     color: rgb(217, 9, 245);
     text-decoration:overline;
 }
+.card img{
+    display: flex;
+    justify-content:flex-end;
+    width: 70vw;
+    background-color: #ffffff;
+    padding: 1px;
+    border: 1em solid rgba(255, 255, 255, 0.89);
+    box-shadow: .2em .2em .3em .3em rgba(0,0,0,0.1);
+    margin: auto;
+    
+
+}
+.card{
+    background-color: antiquewhite !important;
+    border: #ffffff !important;
+    margin: auto;
+    width: 70vw;
+    margin-top: 2em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}

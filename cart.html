@@ -15,13 +15,36 @@
 
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="collection.html">Collection</a>
-        <a href="cart.html">Cart</a>
-        <a href="login.html">Login</a>
-        <a href="registration.html">register</a>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html" id="frtr">FRTR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="collection.html">Collection/Product$</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">Cart</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="registration.html">Regi$ter</a></li>
+                  <li><a class="dropdown-item" href="login.html">Login</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 <form>
     <h1>Billing Address</h1>
     <input placeholder="street">
@@ -38,11 +61,17 @@
     <input type="tel" placeholder="Mobile Phone">
     <h1>How did you hear about us?</h1>
     <select>
-        <option>Search Engine</option>
+        <option>Google</option>
+        <option>FireFox</option>
+        <option>Opera</option>
+        <option>Carlos?</option>
+        <option>Other</option>
     </select>
+    <h1>Promo code</h1>
+    <input placeholder="(Optional)">
     <input type="submit" value="Check-Out">
 </form>
-<table border="1">
+<table border="1" class="center">
     <tr>
         <th>
             Qty
@@ -68,7 +97,8 @@
         <td></td>
         <td></td>
         <td></td>
-    </tr>    <tr>
+    </tr>    
+    <tr>
         <td>TOTAL</td>
         <td></td>
         <td>$0.00</td>
