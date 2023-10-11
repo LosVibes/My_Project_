@@ -12,9 +12,58 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./styles/cart.css ">
+    <style>
+      .btn-primary{
+        margin-top: 9px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-color: rgb(255, 255, 255);
+        
+      }
+      .btn-primary:hover:hover{
+        background-color: rgb(2, 185, 185);
+        border-color: black;
+      }
+      nav{
+        background-color: aqua;
+      }
+      </style>
 
 </head>
-<body>
+<header>
+        <!-- Button trigger modal -->
+        
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="float:right;">
+          Login...
+        </button>
+        
+        <!-- Modal -->
+        <div class="position-absolute top-0 end-50"></div>
+        
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Login...</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <input placeholder="U$ername" type="username" minlength="1">
+                <input placeholder="Pa$$word" type="password" minlength="1">
+              </div>
+              <div class="modal-footer">
+        
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <a href="index.html">
+                <button type="button" class="btn btn-primary">Login...</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="/index.html" id="frtr">FRTR</a>
@@ -45,6 +94,9 @@
           </div>
         </div>
       </nav>
+</header>
+<body>
+  <h2>CHECK-OUT</h2>
 <form>
     <h1>Billing Address</h1>
     <input placeholder="street">
@@ -62,10 +114,10 @@
     <h1>How did you hear about us?</h1>
     <select>
         <option>Google</option>
-        <option>FireFox</option>
-        <option>Opera</option>
-        <option>Carlos?</option>
+        <option>Twitch</option>
+        <option>YouTube</option>
         <option>Other</option>
+        <input type="text" placeholder="(Optional) Other/Content Creator">
     </select>
     <h1>Promo code</h1>
     <input placeholder="(Optional)">

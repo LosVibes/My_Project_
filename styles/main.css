@@ -1,7 +1,7 @@
 body {
     background-color:antiquewhite !important;
 }
-nav a {
+nav  {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     display: flex;
@@ -13,7 +13,7 @@ nav a {
     padding: 1em;
 }
 
-a:hover {
+nav a:hover {
     color: rgb(217, 9, 245);
     text-decoration:overline
 }
@@ -59,7 +59,7 @@ div nav a{
 
 }
 .modal-content{
-    background-color: lavender;
+    background-color: antiquewhite;
     
 }
 .btn-primary{
@@ -71,7 +71,7 @@ div nav a{
 }
 .modal-header{
     background-color: rgb(80, 70, 70);
-    color:lavender;
+    color:antiquewhite;
 }
 form{
     display: flex;
@@ -110,7 +110,4 @@ img{
   #frtr:hover {
     color: rgb(217, 9, 245);
     text-decoration:overline;
-}
-.btn-primary{
-    margin-top: 9px;
 }

@@ -1,7 +1,10 @@
 body {
     background-color:antiquewhite !important;
-     
 }
+h1{
+    text-decoration: line-through;
+    text-decoration-color:rgb(6, 199, 199);
+} 
 nav a {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1em;
@@ -33,7 +36,7 @@ a:hover {
 .card img{
     display: flex;
     justify-content:flex-end;
-    width: 70vw;
+    width: 30vw;
     background-color: #ffffff;
     padding: 1px;
     border: 1em solid rgba(255, 255, 255, 0.89);
@@ -46,8 +49,22 @@ a:hover {
     background-color: antiquewhite !important;
     border: #ffffff !important;
     margin: auto;
-    width: 70vw;
+    width: 30vw;
     margin-top: 2em;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+}
+.modal-header{
+    background-color: rgb(80, 70, 70);
+    color:antiquewhite;
+}
+.modal-content{
+    background-color: antiquewhite;
+    
+}
+.btn-primary{
+    margin-left:inherit;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    border-color: black;
 }

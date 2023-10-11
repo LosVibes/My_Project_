@@ -1,5 +1,10 @@
 body {
     background-color:antiquewhite !important;
+    background-image:url("/images/grouchSAT.png");
+    background-repeat:round;
+    background-size:12em;
+    background-blend-mode:luminosity;
+    
 }
 nav a {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -36,7 +41,7 @@ button{
     position: 0,0,50,0 !important;
 }
 .modal-content{
-    background-color: lavender;
+    background-color: antiquewhite;
 }
 .btn-primary{
     background-color: rgb(0, 0, 0);
@@ -45,7 +50,7 @@ button{
 }
 .modal-header{
     background-color: rgb(80, 70, 70);
-    color:lavender;
+    color:antiquewhite;
 }
 form{
     display: flex;
@@ -72,7 +77,7 @@ table{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
    margin: auto;
-   background-color: rgba(0, 255, 255, 0.267);
+   background-color: rgba(0, 255, 255, 0.288);
     border: 2px solid rgba(0, 255, 255, 0.123);
     box-shadow: .2em .2em .3em .3em rgba(0,0,0,0.1);
 }
@@ -80,10 +85,12 @@ table{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     display: block;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    background-color: rgba(0, 255, 255, 0.267);
+    margin-bottom: 20px;
+    width: 10em;
+    background-color: rgba(0, 255, 255, 0.637);
     border: 2px solid rgba(0, 255, 255, 0.267);
     box-shadow: .2em .2em .3em .3em rgba(0,0,0,0.1);
 }

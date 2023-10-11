@@ -12,7 +12,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/reg.css">
     <style>
         .btn-primary{
             color: antiquewhite;
@@ -25,6 +25,14 @@
             background-color: rgb(217, 9, 245);
             border-color: black;
             }
+        .radio{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+            }
+        #su{
+          margin-left: 2px;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }   
     </style>
 </head>
 
@@ -71,31 +79,46 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Register</h1>
+                    <h2 class="modal-title fs-5" id="exampleModalLabel">Register</h2>
                 </div>
                 <div class="modal-body">
                     <div class="input-group">
-                        <span class="input-group-text">U$ername:</span>
+                        <span class="input-group-text">Username:</span>
                         <input class="form-control" type="text" minlength="1" min="1">
                     </div><br>                    <div class="input-group">
                         <span class="input-group-text">Email:</span>
                         <input class="form-control" type="email" minlength="1" min="1">
+                      <div class="input-group">
+                        <span class="input-group-text">Confirm Email</span>
+                        <input class="form-control" type="email" minlength="1" min="1">
+                      </div>
+                      <div class="input-group">
+                        <input  type="checkbox" minlength="1" min="1">
+                        <span id="su">Check to subscribe to my newsletter</span>
+                      </div><br>
                     </div><br>
                     <div class="input-group">
-                        <span class="input-group-text">Enter Pa$$word:</span>
+                        <span class="input-group-text">Enter Password:</span>
                         <input class="form-control" type="password" minlength="1" min="1">
                     </div>
                     <div class="input-group">
-                        <span class="input-group-text">Confirm Pa$$word:</span>
+                        <span class="input-group-text">Confirm Password:</span>
                         <input class="form-control" type="password" minlength="1" min="1">
                     </div>
-
+                    <div class="radio">
+                        <span class="radio-buttons">How did you hear about us?</span>
+                        <br>
+                        <input class="radio-buttons" type="radio"> Google<br>
+                        <input class="radio-buttons" type="radio"> Twitch<br>
+                        <input class="radio-buttons" type="radio"> YouTube<br>
+                        <input class="radio-buttons" type="radio"> Other<br>
+                        <input class="input-group-text"  placeholder="Other/Content Creator" type="text">
                 </div>
                 <div class="modal-footer">
                     <a href="login.html">
-                        <button type="button" class="btn btn-primary">Already have an account? Login here</button>
+                        <button type="button" class="btn btn-primary">Already have an account? Login here!</button>
                     <a href="index.html">
-                            <button type="button" class="btn btn-primary">Regi$ter</button>
+                            <button type="button" class="btn btn-primary">Register</button>
                     </a>
                 </div>
             </div>
