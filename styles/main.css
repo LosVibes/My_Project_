@@ -1,7 +1,7 @@
-body {
+body{
     background-color:antiquewhite !important;
 }
-nav  {
+nav{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     display: flex;
@@ -12,8 +12,7 @@ nav  {
     color: antiquewhite;
     padding: 1em;
 }
-
-nav a:hover {
+nav a:hover{
     color: rgb(217, 9, 245);
     text-decoration:overline
 }
@@ -32,25 +31,30 @@ h2{
     text-align: center;
 }
 p{
-
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: auto;
     text-align:center;
     font-weight: 600;
     
 }
-ol{
+figure{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: left;
+    margin-left: auto !important;
+    margin-right: auto!important;
+    width: 50% !important;
     background-color: rgba(0, 255, 255, 0.267);
     border: 2px solid rgba(0, 255, 255, 0.267);
     box-shadow: .2em .2em .3em .3em rgba(0,0,0,0.1);
-    
 }
+figcaption{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
 div nav a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
@@ -59,14 +63,7 @@ div nav a{
 
 }
 .modal-content{
-    background-color: antiquewhite;
-    
-}
-.btn-primary{
-    margin-left:inherit;
-    background-color: rgb(0, 0, 0);
-    color: antiquewhite;
-    border-color: black;
+    background-color: antiquewhite!important;
     
 }
 .modal-header{
@@ -93,21 +90,56 @@ img{
     margin: auto;
 
 }
-.center {
+.center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
-  .container-fluid{
+}
+.container-fluid{
     background-color: antiquewhite;
     background-origin: padding-box;
-  }
-  #frtr{
+}
+#frtr{
     text-decoration: line-through;
     text-decoration-color: aqua;
-  }
-  #frtr:hover {
+}
+#frtr:hover{
     color: rgb(217, 9, 245);
     text-decoration:overline;
+}
+.navbar-toggler-icon{
+    border: 5px outset rgb(219, 206, 189)
+}
+.btn-primary{
+    margin-top: 9px;
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(255, 255, 255)!important;
+    font-weight: bold!important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    border-color: rgb(255, 255, 255)!important;
+    
+}
+.btn-primary:hover:hover{
+    background-color: rgb(2, 185, 185)!important;
+    border-color: black!important;
+}
+.btn-secondary{
+    margin-top: 9px !important;
+    color: rgb(0, 0, 0)!important;
+    background-color: rgb(255, 255, 255)!important;
+    font-weight: bold!important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    border-color: rgb(255, 255, 255)!important;
+    
+}
+.btn-secondary:hover{
+    background-color: rgb(2, 185, 185)!important;
+    border-color: black!important;
+}
+.carousel-slide{
+    margin: auto;
+    position: relative;
+    width: 50vw;
+    box-shadow: .2em .2em .3em .3em rgba(48, 2, 2, 0.37);
 }

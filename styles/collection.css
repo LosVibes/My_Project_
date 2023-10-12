@@ -1,11 +1,25 @@
-body {
+body{
     background-color:antiquewhite !important;
 }
 h1{
-    text-decoration: line-through;
-    text-decoration-color:rgb(6, 199, 199);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:line-through;
+    text-decoration-color: rgb(6, 199, 199);
+    display: flex;
+    justify-content: center;
+}
+nav {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction:inherit;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 1em;
 } 
-nav a {
+nav a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1em;
     font-weight: bold;
@@ -17,7 +31,7 @@ nav a {
     color: black;
     padding: 1em;
 }
-a:hover {
+a:hover{
     color: rgb(217, 9, 245);
     text-decoration:overline
 }
@@ -29,7 +43,7 @@ a:hover {
     text-decoration: line-through;
     text-decoration-color: aqua;
 }
-  #frtr:hover {
+  #frtr:hover{
     color: rgb(217, 9, 245);
     text-decoration:overline;
 }
@@ -56,15 +70,36 @@ a:hover {
 }
 .modal-header{
     background-color: rgb(80, 70, 70);
-    color:antiquewhite;
+    color:antiquewhite!important;
 }
 .modal-content{
-    background-color: antiquewhite;
+    background-color: antiquewhite!important;
     
 }
 .btn-primary{
-    margin-left:inherit;
-    background-color: rgb(0, 0, 0);
-    color: antiquewhite;
-    border-color: black;
+    margin-top: 9px!important;
+    color: rgb(0, 0, 0)!important;
+    background-color: rgb(255, 255, 255)!important;
+    font-weight: bold!important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    border-color: rgb(255, 255, 255)!important;
+}
+.btn-primary:hover:hover{
+    background-color: rgb(2, 185, 185)!important;
+    border-color: black!important;
+}
+.btn-secondary{
+    margin-top: 9px!important;
+    color: rgb(0, 0, 0)!important;
+    background-color: rgb(255, 255, 255)!important;
+    font-weight: bold!important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    border-color: rgb(255, 255, 255)!important; 
+}
+.btn-secondary:hover{
+    background-color: rgb(2, 185, 185)!important;
+    border-color: black!important;
+}
+.navbar-toggler-icon{
+    border: 5px outset rgb(219, 206, 189)
 }

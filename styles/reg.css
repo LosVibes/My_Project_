@@ -1,4 +1,4 @@
-body {
+body{
     background-color:antiquewhite !important;
     background-image:url("/images/grouchSAT.png");
     background-repeat:repeat;
@@ -6,7 +6,18 @@ body {
     background-blend-mode:luminosity;
     
 }
-nav a {
+nav{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction:inherit;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 1em;
+}
+nav a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     display: flex;
@@ -18,7 +29,7 @@ nav a {
     padding: 1em;
 }
 
-a:hover {
+a:hover{
     color: rgb(217, 9, 245);
     text-decoration:overline
 }
@@ -31,18 +42,13 @@ h1{
     display: flex;
     justify-content: center;
 }
-h2 {
+h2{
     color: antiquewhite;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration:line-through;
     text-decoration-color: rgb(6, 199, 199);
     display: flex;
     justify-content: center;
-}
-h2{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-decoration:line-through;
-    text-decoration-color: rgb(6, 199, 199);
     margin: auto;
     text-align: center;
 }
@@ -66,23 +72,19 @@ ol{
     box-shadow: .2em .2em .3em .3em rgba(0,0,0,0.1);
     
 }
-div nav a{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    justify-content: space-around;
-    flex-flow: wrap;
-
+.modal{
+    position: inherit;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0px;
 }
 .modal-content{
     background-color: rgb(228, 216, 202);
-    
-}
-.btn-primary{
-    margin-left:inherit;
-    background-color: rgb(0, 0, 0);
-    color: antiquewhite;
-    border-color: black;
-    
 }
 .modal-header{
     background-color: rgb(80, 70, 70);
@@ -92,7 +94,6 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
     margin: 150px;
     background-color:black ;
     border: 5px solid;
@@ -108,24 +109,50 @@ img{
     margin: auto;
 
 }
-.center {
+.center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
-  .container-fluid{
+}
+.container-fluid{
     background-color: antiquewhite;
     background-origin: padding-box;
-  }
-  #frtr{
+}
+#frtr{
     text-decoration: line-through;
     text-decoration-color: aqua;
-  }
-  #frtr:hover {
+}
+#frtr:hover{
     color: rgb(217, 9, 245);
     text-decoration:overline;
 }
 .btn-primary{
     margin-top: 9px;
+    color: antiquewhite;
+    background-color: rgb(80, 70, 70);
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: rgb(80, 70, 70);
+    
+}
+.btn-primary:hover:hover{
+    background-color: rgb(217, 9, 245);
+    border-color: black;
+}
+.btn-secondary{
+    margin-top: 9px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: rgb(255, 255, 255);
+    
+}
+.btn-secondary:hover{
+    background-color: rgb(2, 185, 185);
+    border-color: black;
+}
+.navbar-toggler-icon{
+    border: 5px outset rgb(219, 206, 189)
 }

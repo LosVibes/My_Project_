@@ -12,33 +12,16 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./styles/cart.css ">
-    <style>
-      .btn-primary{
-        margin-top: 9px;
-        color: rgb(0, 0, 0);
-        background-color: rgb(255, 255, 255);
-        font-weight: bold;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        border-color: rgb(255, 255, 255);
-        
-      }
-      .btn-primary:hover:hover{
-        background-color: rgb(2, 185, 185);
-        border-color: black;
-      }
-      nav{
-        background-color: aqua;
-      }
-      </style>
-
 </head>
 <header>
+  <div class="btn-index">
         <!-- Button trigger modal -->
         
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="float:right;">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="float: right;">
           Login...
         </button>
-        
+      </div>    
+
         <!-- Modal -->
         <div class="position-absolute top-0 end-50"></div>
         
@@ -50,14 +33,15 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <input placeholder="U$ername" type="username" minlength="1">
-                <input placeholder="Pa$$word" type="password" minlength="1">
+                <input placeholder="Username" type="text" minlength="1">
+                <input placeholder="Password" type="password" minlength="1">
               </div>
               <div class="modal-footer">
-        
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <a href="registration.html">
+                <button type="button" class="btn btn-secondary">Register</button>
+                </a>
                 <a href="index.html">
-                <button type="button" class="btn btn-primary">Login...</button>
+                <button type="button" class="btn btn-primary">Login</button>
                 </a>
               </div>
             </div>
@@ -76,7 +60,7 @@
                 <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="collection.html">Collection/Product$</a>
+                <a class="nav-link" href="collection.html">Collection/Products</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="cart.html">Cart</a>
@@ -86,7 +70,7 @@
                   More
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="registration.html">Regi$ter</a></li>
+                  <li><a class="dropdown-item" href="registration.html">Register</a></li>
                   <li><a class="dropdown-item" href="login.html">Login</a></li>
                 </ul>
               </li>
