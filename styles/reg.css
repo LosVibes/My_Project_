@@ -1,10 +1,9 @@
 body{
     background-color:antiquewhite !important;
-    background-image:url("/images/grouchSAT.png");
-    background-repeat:repeat;
-    background-size:12em;
+    background-image:url("/images/OTG-Paper.jpg");
+    background-repeat: repeat;
+    background-size:25em;
     background-blend-mode:luminosity;
-    
 }
 nav{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -155,4 +154,14 @@ img{
 }
 .navbar-toggler-icon{
     border: 5px outset rgb(219, 206, 189)
+}
+.nav-button{
+    background-color: rgb(223, 209, 189) !important;
+    border: rgb(189, 178, 163) !important;
+    box-shadow: .3em .3em .3em .3em rgba(0, 0, 0, 0.384);
+}
+div button:hover{
+    background-color: rgb(231, 230, 230);
+    border: rgb(231, 230, 230);
+    box-shadow: .3em .3em .3em .3em rgba(0, 0, 0, 0.384);
 }

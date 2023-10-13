@@ -1,7 +1,13 @@
 body{
     background-color:antiquewhite !important;
+    background-image:url("/images/crumpled-paper-texture-seamless.jpg");
+    background-repeat: repeat;
+    background-blend-mode:luminosity;
+    background-size:50em;
 }
 nav{
+    position:relative;
+    z-index: 9;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     display: flex;
@@ -37,21 +43,29 @@ p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align:center;
     font-weight: 600;
-    
 }
 figure{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     display: block;
     text-align: left;
+    padding-left: 1px;
+    padding-bottom: 1px;
     margin-left: auto !important;
     margin-right: auto!important;
     width: 50% !important;
-    background-color: rgba(0, 255, 255, 0.267);
-    border: 2px solid rgba(0, 255, 255, 0.267);
-    box-shadow: .2em .2em .3em .3em rgba(0,0,0,0.1);
+    color: rgba(212, 212, 212, 0.959);
+    background-image: url(/images/brushed-silver.jpg);
+    border: 2px silver;
+    box-shadow: 1em 1em 1em 1em rgba(0, 0, 0, 0.356);
 }
 figcaption{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(6, 109, 109);
+    text-align: center;
+    padding-top: 2px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;}
@@ -60,11 +74,9 @@ div nav a{
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
-
 }
 .modal-content{
     background-color: antiquewhite!important;
-    
 }
 .modal-header{
     background-color: rgb(80, 70, 70);
@@ -74,7 +86,6 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
     margin: 150px;
     background-color:black ;
     border: 5px solid;
@@ -111,6 +122,17 @@ img{
 .navbar-toggler-icon{
     border: 5px outset rgb(219, 206, 189)
 }
+.nav-button{
+    background-color: rgb(223, 209, 189) !important;
+    border: rgb(189, 178, 163) !important;
+    box-shadow: .3em .3em .3em .3em rgba(0, 0, 0, 0.384);
+}
+div button:hover{
+    background-color: rgb(231, 230, 230);
+    border: rgb(231, 230, 230);
+    box-shadow: .3em .3em .3em .3em rgba(0, 0, 0, 0.384);
+}
+
 .btn-primary{
     margin-top: 9px;
     color: rgb(0, 0, 0) !important;
@@ -142,4 +164,38 @@ img{
     position: relative;
     width: 50vw;
     box-shadow: .2em .2em .3em .3em rgba(48, 2, 2, 0.37);
+}
+.carousel-control-prev:hover{
+    background-color: rgba(255, 255, 255, 0.267) !important;
+    border: rgb(231, 230, 230)!important;
+    box-shadow: .3em .3em .3em .3em rgba(0, 0, 0, 0.384)!important;
+}.carousel-control-next:hover{
+    background-color: rgba(255, 255, 255, 0.267) !important;
+    border: rgb(231, 230, 230)!important;
+    box-shadow: .3em .3em .3em .3em rgba(0, 0, 0, 0.384)!important;
+}
+.carousel-indicators .active{
+    background-color: rgb(2, 185, 185) !important;
+}
+.carousel-indicators .active:hover{
+    background-color: rgb(0, 241, 241) !important;
+}
+.carousel-indicators button:hover{
+    background-color: rgb(0, 128, 128) !important;
+}
+.carousel-inner h5{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgba(250, 235, 215, 0.527);
+    margin: auto;
+    padding-left: -20px;
+    background-size: auto !important;
+}
+.carousel-inner p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgba(250, 235, 215, 0.527);
+    background-size: auto !important;
+    margin: auto;
+    padding-left: -20px;
 }
