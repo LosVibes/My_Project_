@@ -188,7 +188,6 @@ div button:hover{
     color: rgba(0, 0, 0, 0.692);
     background-color: rgba(250, 235, 215, 0.527);
     margin: auto;
-    padding-left: -20px;
     background-size: auto !important;
 }
 .carousel-inner p{
@@ -197,5 +196,4 @@ div button:hover{
     background-color: rgba(250, 235, 215, 0.527);
     background-size: auto !important;
     margin: auto;
-    padding-left: -20px;
 }
